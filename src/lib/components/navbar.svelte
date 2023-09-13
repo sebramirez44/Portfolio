@@ -51,7 +51,7 @@
     export let currentPage:any;
 </script>
 <nav>
-    <!-- <a href="/" class="brand">Sebastian Ramirez</a> -->
+    <a href="/portfolio" class="brand">Sebastian Ramirez</a>
     <ul>
         <!-- aqui en class, si esta seleccionado hacerlo en otra clase usar ternary -->
         <li><a href="/portfolio" class={currentPage === "/" ? "active" : "page"}>Home</a></li>
