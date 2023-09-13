@@ -51,13 +51,14 @@
     export let currentPage:any;
 </script>
 <nav>
-    <a href="/portfolio" class="brand">Sebastian Ramirez</a>
+    <!-- cambiar estos para github pages, ponerle /portfolio a todo -->
+    <a href="/" class="brand">Sebastian Ramirez</a>
     <ul>
         <!-- aqui en class, si esta seleccionado hacerlo en otra clase usar ternary -->
-        <li><a href="/portfolio" class={currentPage === "/" ? "active" : "page"}>Home</a></li>
-        <li><a href="/portfolio/skills" class={currentPage === "/skills" ? "active" : "page"}>Skills</a></li>
-        <li><a href="/portfolio/projects" class={currentPage === "/projects" ? "active" : "page"}>Projects</a></li>
-        <li><a href="/portfolio/about" class={currentPage === "/about" ? "active" : "page"}>About Me</a></li>
+        <li><a href="/" class={currentPage === "/" ? "active" : "page"}>Home</a></li>
+        <li><a href="/skills" class={currentPage === "/skills" ? "active" : "page"}>Skills</a></li>
+        <li><a href="/projects" class={currentPage === "/projects" ? "active" : "page"}>Projects</a></li>
+        <li><a href="/about" class={currentPage === "/about" ? "active" : "page"}>About Me</a></li>
     </ul>
     
 </nav>
