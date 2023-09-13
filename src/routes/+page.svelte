@@ -6,9 +6,10 @@
         align-items:center;
     }
     .firstBox {
-        margin-top:5%;
+        margin-top:10%;
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
+        justify-content:space-between;
         width:100%;
     }
 </style>
@@ -20,6 +21,9 @@
     <!-- maybe hacer esto en un componente, por ahora no se necesita -->
     <div class="firstBox">
         <div class="firstBoxItem">
+            <p>ok</p>
+        </div>
+        <div class="secondBoxItem">
             
         </div>
     </div>

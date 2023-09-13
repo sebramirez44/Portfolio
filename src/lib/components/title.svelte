@@ -12,7 +12,7 @@
         animation: slidein 0.5s linear 0.5s forwards;
     }
     .out {
-        height:40vh;
+        height:20vh;
     }
 
     @keyframes slidein {
