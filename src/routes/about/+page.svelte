@@ -1,3 +1,4 @@
+<!-- Everything you need to know about me. -->
 <style>
     .containerHome {
         display:flex;
@@ -7,8 +8,9 @@
     }
 </style>
 <script lang="ts">
-    import Title from '../lib/components/title.svelte';
+    let count = 0;
+    import Title from '../../lib/components/title.svelte';
 </script>  
 <div class="containerHome">
-    <Title title="What is this website?"/>
+    <Title title="Everything you need to know about me."/>
 </div>
