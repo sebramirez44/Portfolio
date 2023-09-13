@@ -21,7 +21,7 @@
         display:flex;
         flex-direction:row;
         justify-content:center;
-        padding-left: 10%;
+        /* padding-left: 10%; */
     }
     .secondBoxItem {
         width:50%;
