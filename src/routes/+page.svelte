@@ -11,13 +11,12 @@
         flex-direction:row;
         justify-content:space-around;
         width:100%;
-        margin-bottom:20%;
     }
     .fluidSVG {
-        width: 100%;
+        width: 50%;
     }
     .firstBoxItem {
-        width:20%;
+        width:50%;
         display:flex;
         flex-direction:row;
         justify-content:center;
@@ -28,10 +27,33 @@
         display:flex;
         flex-direction:column;
         justify-content:center;
+        font-family:Montserrat;
+        padding-right:10%;
     }
     .reactTexto {
         font-size:2em;
         line-height:1.5em;
+    }
+    .secondBox {
+        margin-top:4%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        width:100%;
+    }
+    .secondBoxItem2 {
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        font-family:Montserrat;
+        padding-left:10%;
+    }
+    .reactHeader {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 3em;
     }
 </style>
 <script lang="ts">
@@ -50,5 +72,17 @@
                 a new technology.
             </p>
         </div>
+    </div>
+    <div class="secondBox">
+        <div class="secondBoxItem2">
+            <h1 class="reactHeader">Want to know more?</h1>
+            <p class="reactTexto">This website contains a comprehensive list of the projects I've made,
+                my skills, and information about me.
+            </p>
+        </div>
+        <div class="firstBoxItem">
+            <img src="/resumeIcon.png" alt="resumeIcon" width=75% />
+        </div>
+        
     </div>
 </div>

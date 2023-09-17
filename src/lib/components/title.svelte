@@ -1,13 +1,13 @@
 <style>
     .Title {
         font-family: Roboto;
-        font-size:7rem;
+        font-size:8rem;
         font-weight: bold;
         text-align: center;
         margin-top: 5%;
         
     }
-
+/* 
     .animate-fade-in {
         animation: slidein 0.5s linear 0.5s forwards;
     }
@@ -22,7 +22,7 @@
         to {
             font-size: 8rem; 
         }
-    }
+    } */
 </style>
 <script lang="ts">
     export let title:string;
